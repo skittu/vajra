@@ -1,0 +1,293 @@
+.title1
+{
+  color:#0E0B16;
+}
+.title2{
+  color:#c1ffcf;
+}
+.aboutvajra{
+  display: block;
+  width: 80%;
+  height: 400px;
+  background-color: #c1ffcf;
+  margin: 0 auto;
+  padding: 50px 70px;
+}
+.miakhalifa{
+text-align: center;
+ font-size: 24px;
+}
+.line{
+  margin-top: -30px;
+  top:-30px;
+}
+
+
+
+  .multi-item-carousel .carousel-inner > .item {
+    transition: 0.6s ease-in-out all;
+  }
+  .multi-item-carousel .carousel-inner .active.left {
+    left: -33%;
+  }
+  .multi-item-carousel .carousel-inner .active.right {
+    left: 33%;
+  }
+  .multi-item-carousel .carousel-inner .next {
+    left: 33%;
+  }
+  .multi-item-carousel .carousel-inner .prev {
+    left: -33%;
+  }
+  .multi-item-carousel .carouse-control.left,
+  .multi-item-carousel .carouse-control.right {
+    background-image: none;
+  }
+  @media all and (transform-3d), (-webkit-transform-3d) {
+    .multi-item-carousel .carousel-inner > .item {
+      transition: 0.6s ease-in-out all;
+      -webkit-backface-visibility: visible;
+      backface-visibility: visible;
+      -webkit-perspective: none;
+      -webkit-transform: none!important;
+      transform: none!important;
+    }
+  }
+
+  @font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(https://fonts.gstatic.com/s/yanonekaffeesatz/v9/3y976aknfjLm_3lMKjiMgmUUYBs04Y8bH-8.ttf) format('truetype');
+}
+
+
+.modalbg {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 99999;
+  -moz-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  -transition-delay: 0.2s;
+  display: block;
+  pointer-events: none;
+}
+.modalbg .dialog {
+  width: 600px;
+  position: relative;
+  top: -1300px;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #ccc);
+  background: -webkit-linear-gradient(#fff, #ccc);
+  background: -o-linear-gradient(#fff, #ccc);
+  box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+}
+.modalbg .dialog .ie7 {
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=3);
+}
+.modalbg:target {
+  display: block;
+  pointer-events: auto;
+  background: rgba(4, 10, 30, 0.8);
+  -moz-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.modalbg:target .dialog {
+  top: -10px;
+  -moz-transition: all 0.8s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  -transition-delay: 0.4s;
+}
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  -transition-delay: 0.2s;
+}
+.close .ie7 {
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=3);
+}
+.close:hover {
+  background: #00d9ff;
+  -moz-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.teamoverlay:hover img{
+  opacity: 0.5;
+
+}
+.teamoverlay:hover .naam{
+  opacity: 1;
+
+}
+.naam{
+  opacity: 0;
+    font-size: 20px;
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    line-height: 1.5;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+
+}
+.naam2{
+  opacity: 0;
+    font-size: 20px;
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    line-height: 1.5;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+
+}
+.teamoverlay:hover img{
+  opacity: 0.5;
+
+}
+.teamoverlay:hover .naam2{
+  opacity: 1;
+
+}
+@media screen and (max-width:500px)  {
+  .modalbg .dialog{
+    width:85%;
+
+  }
+  .content{
+    font-size: 10px;
+    line-height: 1.5;
+  }
+  .modalbg:target .dialog
+  {
+    top:60px;
+  }
+  .miakhalifa
+  {
+    font-size: 12px;
+    line-height: 1.5;
+
+  }
+  .aboutvajra{
+    padding:  20px 20px;
+  }
+   .modal-heading
+   {
+     font-size:20px;
+   }
+    .kyunkicenterkarnahai
+    {
+      text-align: center;;
+    }
+    .teamoverlay img{
+      opacity: 0.5;
+    }
+    .naam{
+      opacity: 1;
+      font-size: 7px;
+    }
+    .naam2
+    {
+      opacity: 1;
+      font-size: 10px;
+    }
+}
+@media screen and (max-width:400px) {
+  .naam2
+  {
+    font-size:7px;
+  }
+}
+/*
+  .content{
+    position: absolute;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 80%;
+    height: 100px;
+    left: 4.25%;
+  }
+  .baba{
+    overflow: hidden;
+  }
+
+.readmore{
+  border: 2px white solid;
+  margin: 0 auto;
+  position: relative;
+  bottom: 0;
+  color:white;
+  text-decoration: none;
+  left: 50px;
+}
+.content2
+{
+  position: absolute;
+  bottom: 0;
+  left:15px;
+  background:rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.my_img{
+  height: 100%;
+  width: 100%;
+}
+*/
