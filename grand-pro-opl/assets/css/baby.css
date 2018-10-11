@@ -14,7 +14,7 @@
   padding: 50px 70px;
 }
 .miakhalifa{
-text-align: center;
+text-align: justify;
  font-size: 24px;
 }
 .line{
@@ -171,27 +171,28 @@ text-align: center;
   opacity: 0;
     font-size: 20px;
     position: absolute;
-    bottom: 5px;
+
     color: white;
     line-height: 1.5;
     z-index: 1000;
     text-align: center;
     width: 100%;
-    left: 0px;
+    bottom: 40%;
+    left:-5%;
 
 }
 .naam2{
   opacity: 0;
-    font-size: 20px;
+    font-size: 25px;
     position: absolute;
-    bottom: 5px;
+
     color: white;
     line-height: 1.5;
     z-index: 1000;
     text-align: center;
     width: 100%;
-    left: 0px;
-
+    bottom: 45%;
+    left:0%;
 }
 .teamoverlay:hover img{
   opacity: 0.5;
@@ -242,6 +243,7 @@ text-align: center;
     {
       opacity: 1;
       font-size: 10px;
+      bottom: 35%;
     }
 }
 @media screen and (max-width:400px) {
@@ -291,3 +293,14 @@ text-align: center;
   width: 100%;
 }
 */
+
+.uparaja
+{
+  z-index: 5000;
+}
+.bada{
+  font-size: 50px;
+}
+.aurbada{
+  font-size: 160px;
+}
